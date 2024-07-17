@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#form-container, #filter-container {
+    margin-bottom: 20px;
+}
+
+#task-form input, #task-form textarea, #task-form select, #task-form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#filter-container select {
+    margin-right: 10px;
+}
+
+.task-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.task-card button {
+    margin-right: 10px;
+}
+
+#pagination-container button {
+    margin: 5px;
+    padding: 10px;
+}
